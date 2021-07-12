@@ -9,6 +9,7 @@ const entrySchema = new Schema (
         lastName: {type: String, required: true},
         profession: {type: String, required: true},
         date: {type: Date, required: true},
+        owner: {type: Schema.Types.ObjectId, ref: 'User'},
     },
     {
         timestamps: true,

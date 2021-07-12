@@ -26,6 +26,12 @@ app.get('/', (req, res) => {
 })
 
 //insert routes here
+const entryRouter = require('./routes/entry')
+const userRouter = require('./routes/user')
+const { server } = require('sinon')
+
+app.use('/entries', entryRouter)
+app.use('/users', userRouter)
 
 app.listen(PORT, () => {
     console.log(`Server is running on port: ${PORT}`)
