@@ -9,7 +9,7 @@ app.use(cors())
 app.use(express.json())
 
 // connect to mongoDB atlas
-const uri = "mongodb+srv://miglye:mitch123@cluster0.0we5k.mongodb.net/Cluster0?retryWrites=true&w=majority";
+const uri = "mongodb+srv://miglye:<password>@cluster0.0we5k.mongodb.net/Cluster0?retryWrites=true&w=majority";
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 
 const connection = mongoose.connection
