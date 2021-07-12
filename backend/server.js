@@ -2,6 +2,10 @@ const express = require('express')
 const cors = require('cors')
 const mongoose = require('mongoose')
 
+//requiring dotenv
+const dotenv = require('dotenv')
+dotenv.config()
+
 const app = express()
 const PORT = 5000
 
@@ -9,7 +13,7 @@ app.use(cors())
 app.use(express.json())
 
 // connect to mongoDB atlas
-const uri = "mongodb+srv://miglye:mitch123@cluster0.0we5k.mongodb.net/Cluster0?retryWrites=true&w=majority";
+const uri = process.env.DB_URI
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 
 const connection = mongoose.connection

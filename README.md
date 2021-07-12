@@ -8,6 +8,7 @@ To start the backend, cd into the backend folder and install the npm modules usi
 'npm install express'
 'npm install cors'
 'npm install mongoose'
+'npm install dotenv'S
 Then run the application with:
 'node server'
 Finally open your preferred browser and go to http://localhost:5000
