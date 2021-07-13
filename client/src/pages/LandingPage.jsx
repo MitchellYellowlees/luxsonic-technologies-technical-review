@@ -1,6 +1,6 @@
 import React from 'react';
 
-import medical from './stock_medical.jpg';
+import medical from '../stock_medical.jpg';
 
 export default function LandingPage() {
     return (
