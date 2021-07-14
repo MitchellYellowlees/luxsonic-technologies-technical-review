@@ -3,7 +3,9 @@
 }
 
 .hero-image{
-    float: left
+    float: left;
+    
+    width: 45%;
 }
 
 .landing-page-content{
