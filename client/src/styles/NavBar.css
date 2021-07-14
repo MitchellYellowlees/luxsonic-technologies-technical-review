@@ -16,14 +16,14 @@
     text-decoration: none;
     float: right;
     width: fit-content;
-    padding-left: 3vw;
+    padding-left: 6vw;
     padding-right: 1vw;
-    padding-top: 2vh;
+    padding-top: 1%;
 }
 
 .nav-link{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: none;
     color: #ffffff;
 }
