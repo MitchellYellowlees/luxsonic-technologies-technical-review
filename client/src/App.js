@@ -1,11 +1,16 @@
-import './styles/App.css';
-import LandingPage from './pages/LandingPage';
+
+import { BrowserRouter } from 'react-router-dom';
+import Auth0ProviderWithHistory from './auth0Provider';
+import Router from './Router.jsx';
+
 
 function App() {
   return (
-    <div className="App">
-      <LandingPage/>
-    </div>
+    <BrowserRouter>
+    <Auth0ProviderWithHistory>
+    <Router/>
+    </Auth0ProviderWithHistory>
+    </BrowserRouter>
   );
 }
 
