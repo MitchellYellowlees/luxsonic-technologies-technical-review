@@ -12,17 +12,21 @@ export default function NavBar() {
         <div className="navbar-root">
             <img src={logo} className='logo-image'/>
             {isAuthenticated ? (<>
-            <p className="nav-item">
-                <NavLink to={'/'} id="NavToDataEntry">
-                    <div className="nav-link">Home</div>
-                </NavLink>
+                <p className="nav-item">
+                <LogoutButton/>
                 </p>
+            
                 <p className="nav-item">
                 <NavLink to={'/data'} id="NavToDataView">
                     <div className="nav-link">Data</div>
                 </NavLink>
                 </p>
-                <LogoutButton/></>) : (<></>)}
+                <p className="nav-item">
+                <NavLink to={'/'} id="NavToDataEntry">
+                    <div className="nav-link">Home</div>
+                </NavLink>
+                </p>
+                </>) : (<></>)}
         </div>
     )
 }

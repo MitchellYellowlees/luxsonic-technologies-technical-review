@@ -4,3 +4,26 @@
     overflow: hidden;
     background-color:#3580a9;
 }
+
+.logo-image{
+    float:left;
+    min-height: 40px;
+    max-height: 80px;
+    padding: 1%;
+}
+
+.nav-item{
+    text-decoration: none;
+    float: right;
+    width: fit-content;
+    padding-left: 3vw;
+    padding-right: 1vw;
+    padding-top: 2vh;
+}
+
+.nav-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
