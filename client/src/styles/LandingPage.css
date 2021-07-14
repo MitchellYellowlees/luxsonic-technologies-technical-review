@@ -3,7 +3,9 @@
 }
 
 .hero-image{
-    float: left
+    float: left;
+    
+    width: 45%;
 }
 
 .landing-page-content{
@@ -14,5 +16,14 @@
     display:block;
     height:100%;
     display: inline-block;
-    padding-top: 10%;
+    padding-top: 20%;
+}
+
+.text-welcome{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color:#3580a9;
+    font-weight: 550;
+    padding-bottom: 7vh;
+    overflow: hidden;
 }

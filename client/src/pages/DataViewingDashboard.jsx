@@ -1,12 +1,14 @@
 import React from 'react';
+import '../styles/DataViewingDashboard.css';
 
 export default function DataViewingDashboard() {
     return (
         <div className="dashboard-root">
                 <div className="user-greeting">
-                    <text>Your Data Records</text>
-                    <button>EXPORT ALL ENTRIES</button>
-                </div>
+                    Your Data Records
+                    </div>
+                    <button className="export">EXPORT ALL ENTRIES</button>
+                
                 <div className="data-display"> 
                 
                 </div>

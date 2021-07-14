@@ -9,8 +9,9 @@ export default function LandingPage() {
             <img src={hero} className='hero-image' height='100%' width='50%'/>
             <div className='landing-page-content'>
                 <span className="greeting">
+                    <div className="text-welcome">
                 Welcome to &lt;CompanyName&gt; - Technical Review
-                
+                </div>
                 <LoginButton/>
                 </span>
             </div>
