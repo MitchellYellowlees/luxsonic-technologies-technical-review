@@ -6,11 +6,11 @@ const Entry = require('../models/entry.model')
 
 // creating a new user
 router.route('/create-user').post((req, res) => {
-    const username = req.body.username
+    //const username = req.body.username
     const email = req.body.email
 
     const newUser = new User({
-        username,
+        //username,
         email,
     })
 
@@ -50,6 +50,24 @@ router.route('/get/entries/:id').get((req, res) => {
     .exec()
     .then((user) => res.json({ message: 'Got all entries for given user ID', response: user.entries, }))
     .catch((err) => { res.status(400).json({ message: 'Error: could not get all entries with given user ID', response: err, })})
+})
+
+// getting a user's entries via email
+router.route('/get/entries-with-email/:email').get((req, res) => {
+    User.findOne({ email: req.params.email })
+    .populate('entries')
+    .exec()
+    .then((user) =>
+    res.json({
+        message: 'Got entries from user email',
+        response: user.entries,
+    }))
+    .catch((err) => {
+        res.status(400).json({
+            message: 'Error: could not get user with given email',
+            response: err,
+        })
+    })
 })
 
 module.exports = router
