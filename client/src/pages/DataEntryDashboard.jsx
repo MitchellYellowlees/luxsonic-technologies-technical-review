@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoutButton from '../components/LogoutButton';
+import '../styles/DataEntryDashboard.css';
 
 export default function DataEntryDashboard() {
     return (
@@ -8,18 +8,24 @@ export default function DataEntryDashboard() {
                     Welcome to your personal dashboard!
                 </div>
                 <div className="entry-form"> 
-                Add a Record
+                <div className="info">Add a Record</div>
                 <br/>
+                <div className="inputs">
                 First Name: 
-                <input type="text"/>
+                <input className="field" type="text"/>
+                </div>
                 <br/>
+                <div className="inputs">
                 Last Name: 
-                <input type="text"/>
+                <input className="field" type="text"/>
+                </div>
                 <br/>
+                <div className="inputs">
                 Profession: 
-                <input type="text"/>
+                <input className="field" type="text"/>
+                </div>
                 <br/>
-                <button>SUBMIT NEW RECORD</button>
+                <button className="submit">SUBMIT NEW RECORD</button>
                 </div>
         </div>
     )

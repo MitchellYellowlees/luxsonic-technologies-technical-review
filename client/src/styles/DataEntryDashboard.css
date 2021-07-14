@@ -1,0 +1,35 @@
+.user-greeting{
+    padding:5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color:#3580a9;
+    font-weight: 550;
+}
+
+.entry-form{
+    background-color: #3580a9;
+    min-height:77vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 550;
+    color: #ffffff;
+}
+
+.info{
+    padding: 6vh;
+}
+
+.field{
+    height:20px;
+    transform: translateY(-7px);
+}
+
+.submit{
+    color: #ffffff;
+    background-color: #f4922a;
+    border-radius: 20px;
+    font-size: 30px;
+    height:100px;
+    width:450px;
+    transform: translateY(60px);
+}
