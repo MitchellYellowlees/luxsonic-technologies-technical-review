@@ -15,6 +15,11 @@ export default function NavBar() {
                     <div className="nav-link">Home</div>
                 </NavLink>
                 </p>
+                <p className="nav-item">
+                <NavLink to={'/data'} id="NavToDataView">
+                    <div className="nav-link">Data</div>
+                </NavLink>
+                </p>
                 <LogoutButton/></>) : (<></>)}
         </div>
     )
