@@ -6,8 +6,9 @@ export default function DataViewingDashboard() {
         <div className="dashboard-root">
                 <div className="user-greeting">
                     Your Data Records
+                    </div>
                     <button className="export">EXPORT ALL ENTRIES</button>
-                </div>
+                
                 <div className="data-display"> 
                 
                 </div>
