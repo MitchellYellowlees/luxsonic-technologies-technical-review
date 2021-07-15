@@ -1,0 +1,14 @@
+.entry-root{
+    padding:10px;
+}
+
+.entry-component{
+    height: 170px;
+    width: 800px;
+    background-color:#3580a9;
+    margin:0 auto;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+}
