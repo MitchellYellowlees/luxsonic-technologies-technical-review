@@ -4,7 +4,7 @@
   "description": "This project is a website that allows users to login securely to access a dashboard, create records/entries that are submitted to a database using a web form, and be able to export those entries to a file that can be stored locally on a device.",
   "main": "App.js",
   "scripts": {
-    "start": "npm start",
+    "start": "cd client&&npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
