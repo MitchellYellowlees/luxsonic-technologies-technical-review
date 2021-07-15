@@ -18,6 +18,7 @@ export default function DataEntryDashboard() {
     }, [])
 
     function submitEntry() {
+        if(userInfo!=null){
         var today = new Date();
         var day = String(today.getDate()).padStart(2, '0');
         var month = String(today.getMonth()+1).padStart(2, '0');
@@ -31,6 +32,7 @@ export default function DataEntryDashboard() {
         console.log(newEntry.owner)
         dispatch(createEntryAsync(newEntry))
         window.alert("Data Entry has been submitted!")
+        }
     }
 
     return (

@@ -9,7 +9,7 @@ import {
 
 const axios = require('axios').default
 //const url = process.env.SERVER_URI + '/users'
-const url = `http://localhost:5000/users`
+const url = `https://172.16.1.82:5000/users`
 
 // Actions for fetching a user
 

@@ -6,7 +6,7 @@ import {
 
 const axios = require('axios').default
 
-const url = 'http://localhost:5000/entries'
+const url = `https://172.16.1.82:5000/entries`
 
 export const createEntryStart = () => {
     return {
