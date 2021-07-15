@@ -6,7 +6,8 @@ import {
 
 const axios = require('axios').default
 
-const url = 'http://localhost:5000/entries'
+//const url = 'http://localhost:5000/entries'
+const url = process.env.SERVER_URI + '/entries'
 
 export const createEntryStart = () => {
     return {
