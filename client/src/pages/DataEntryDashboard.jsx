@@ -30,6 +30,7 @@ export default function DataEntryDashboard() {
         owner: userInfo._id}
         console.log(newEntry.owner)
         dispatch(createEntryAsync(newEntry))
+        window.alert("Data Entry has been submitted!")
     }
 
     return (

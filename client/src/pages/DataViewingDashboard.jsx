@@ -22,7 +22,6 @@ export default function DataViewingDashboard() {
 
 
     const renderEntries = () => {
-        //console.log(allEntries.length)
         if(allEntries!=null){
         if (allEntries.length!=0){
             return allEntries.map((entry, i) => {
