@@ -9,6 +9,7 @@ import {
 
 const axios = require('axios').default
 //const url = process.env.SERVER_URI + '/users'
+const url = `http://localhost:5000/users`
 
 // Actions for fetching a user
 
@@ -36,13 +37,13 @@ export const fetchUserInfoSuccess = (info) => {
       return (dispatch) => {
           dispatch(fetchUserInfoStart())
           //axios.get(`${url}/get-by-email/${user.email}`)
-          axios.get(`http://localhost:5000/users/get-by-email/${user.email}`)
+          axios.get(`${url}/get-by-email/${user.email}`)
           .then((info) => {
               if (info.data.response) {
                   dispatch(fetchUserInfoSuccess(info))
               }
               else if (info.data.response === null) {
-                  axios.post(`http://localhost:5000/users/create-user`, {
+                  axios.post(`${url}/create-user`, {
                       email: user.email,
                   })
                   .then((info) => dispatch(fetchUserInfoSuccess(info)))
@@ -79,7 +80,7 @@ export const fetchUserInfoSuccess = (info) => {
       return (dispatch) => {
           dispatch(fetchUserEntriesStart())
 
-          axios.get(`http://localhost:5000/users/get/entries-with-email/${user_email}`)
+          axios.get(`${url}/get/entries-with-email/${user_email}`)
           .then((entries) => dispatch(fetchUserEntriesSuccess(entries)))
           .catch((err) => dispatch(fetchUserEntriesFailure(err)))
       }

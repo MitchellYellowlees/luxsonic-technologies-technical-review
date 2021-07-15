@@ -6,11 +6,9 @@ const Entry = require('../models/entry.model')
 
 // creating a new user
 router.route('/create-user').post((req, res) => {
-    //const username = req.body.username
     const email = req.body.email
 
     const newUser = new User({
-        //username,
         email,
     })
 
