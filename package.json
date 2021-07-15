@@ -2,9 +2,9 @@
   "name": "luxsonic-technologies-technical-review",
   "version": "1.0.0",
   "description": "This project is a website that allows users to login securely to access a dashboard, create records/entries that are submitted to a database using a web form, and be able to export those entries to a file that can be stored locally on a device.",
-  "main": "App.js",
+  "main": "client/App.js",
   "scripts": {
-    "start": "cd client && npm start"
+    "start": "npm start"
   },
   "repository": {
     "type": "git",
