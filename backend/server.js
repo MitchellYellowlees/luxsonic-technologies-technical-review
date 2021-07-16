@@ -33,7 +33,7 @@ const { server } = require('sinon')
 app.use('/entries', entryRouter)
 app.use('/users', userRouter)
 
-app.listen(PORT, () => {
+app.listen(PORT,'0.0.0.0', () => {
     console.log(`Server is running on port: ${PORT}`)
 })
 
