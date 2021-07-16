@@ -1,9 +1,12 @@
 {
+  "homepage": "http://MitchellYellowlees.github.io/luxsonic-technologies-technical-review",
   "name": "luxsonic-technologies-technical-review",
   "version": "1.0.0",
   "description": "This project is a website that allows users to login securely to access a dashboard, create records/entries that are submitted to a database using a web form, and be able to export those entries to a file that can be stored locally on a device.",
   "main": "client/App.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npm start"
   },
   "repository": {
