@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.30ea79f9.chunk.css",
-    "main.js": "/static/js/main.5ee795fc.chunk.js",
-    "main.js.map": "/static/js/main.5ee795fc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7545a8a1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7545a8a1.js.map",
-    "static/js/2.7bdc6446.chunk.js": "/static/js/2.7bdc6446.chunk.js",
-    "static/js/2.7bdc6446.chunk.js.map": "/static/js/2.7bdc6446.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.30ea79f9.chunk.css.map": "/static/css/main.30ea79f9.chunk.css.map",
-    "static/js/2.7bdc6446.chunk.js.LICENSE.txt": "/static/js/2.7bdc6446.chunk.js.LICENSE.txt",
-    "static/media/stock_medical.6ffabd70.png": "/static/media/stock_medical.6ffabd70.png"
+    "main.css": "/luxsonic-technologies-technical-review/static/css/main.30ea79f9.chunk.css",
+    "main.js": "/luxsonic-technologies-technical-review/static/js/main.f73e1ab1.chunk.js",
+    "main.js.map": "/luxsonic-technologies-technical-review/static/js/main.f73e1ab1.chunk.js.map",
+    "runtime-main.js": "/luxsonic-technologies-technical-review/static/js/runtime-main.32274bb4.js",
+    "runtime-main.js.map": "/luxsonic-technologies-technical-review/static/js/runtime-main.32274bb4.js.map",
+    "static/js/2.7bdc6446.chunk.js": "/luxsonic-technologies-technical-review/static/js/2.7bdc6446.chunk.js",
+    "static/js/2.7bdc6446.chunk.js.map": "/luxsonic-technologies-technical-review/static/js/2.7bdc6446.chunk.js.map",
+    "index.html": "/luxsonic-technologies-technical-review/index.html",
+    "static/css/main.30ea79f9.chunk.css.map": "/luxsonic-technologies-technical-review/static/css/main.30ea79f9.chunk.css.map",
+    "static/js/2.7bdc6446.chunk.js.LICENSE.txt": "/luxsonic-technologies-technical-review/static/js/2.7bdc6446.chunk.js.LICENSE.txt",
+    "static/media/stock_medical.6ffabd70.png": "/luxsonic-technologies-technical-review/static/media/stock_medical.6ffabd70.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7545a8a1.js",
+    "static/js/runtime-main.32274bb4.js",
     "static/js/2.7bdc6446.chunk.js",
     "static/css/main.30ea79f9.chunk.css",
-    "static/js/main.5ee795fc.chunk.js"
+    "static/js/main.f73e1ab1.chunk.js"
   ]
 }
