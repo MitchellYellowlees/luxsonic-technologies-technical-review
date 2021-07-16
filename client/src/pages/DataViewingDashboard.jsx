@@ -29,7 +29,7 @@ export default function DataViewingDashboard() {
             })
         }
     }
-        return <button/>
+        return <br/>
     }
 
     function exportData() {
