@@ -21,9 +21,10 @@
 
 .text-welcome{
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 3vh;
     color:#3580a9;
     font-weight: 550;
     padding-bottom: 7vh;
+    
     overflow: hidden;
 }
