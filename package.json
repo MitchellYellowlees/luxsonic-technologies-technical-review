@@ -7,7 +7,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "npm start"
+    "start": "npm start",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MitchellYellowlees/luxsonic-technologies-technical-review/issues"
+  },
+  "dependencies": {
+    "react-scripts": "^4.0.3"
   }
 }
