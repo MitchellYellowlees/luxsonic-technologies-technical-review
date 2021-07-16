@@ -19,6 +19,8 @@ Finally, open your preferred browser and go to http://localhost:3000
 
 To start the backend, cd into the backend folder and install the npm modules using these commands:
 
+'npm install'
+
 'npm install express'
 
 'npm install cors'
