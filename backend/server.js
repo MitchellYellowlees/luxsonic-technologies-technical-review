@@ -40,7 +40,7 @@ app.use('/users', userRouter)
 
 var options = {
     key: fs.readFileSync('key.pem'),
-    ca: fs.readFileSync('cert.pem')
+    ca: fs.readFileSync('certificate.pem')
 }
 
 https.createServer(options, app).listen(process.env.PORT || PORT, () => {
